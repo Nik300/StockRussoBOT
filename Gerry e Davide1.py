@@ -6,5 +6,5 @@ if args is not None:
         PyBot.SendTextMessage("MA SIAMO AL MILITARE QUI!!!!!!")
     if args[1]=="Gerry":
         PyBot.SendTextMessage("<b>MA NOOO!!!</b>")
-if len(args)<2:
+if len(args)<1:
     sys.exit()

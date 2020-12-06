@@ -1,4 +1,4 @@
 from BotOS_API import*
-PyBot.SendImageMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/12896ef4-b220-4107-ad7a-390c3a3e92c6.jpg")
-PyBot.SendImageMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/12896ef4-b220-4107-ad7a-390c3a3e92c6.jpg")
-PyBot.SendImageMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/12896ef4-b220-4107-ad7a-390c3a3e92c6.jpg")
+PyBot.SendImageMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/2020-12-06%2012.50.54.jpg")
+PyBot.SendImageMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/2020-12-06%2012.50.54.jpg")
+PyBot.SendImageMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/2020-12-06%2012.50.54.jpg")

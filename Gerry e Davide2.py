@@ -1,4 +1,3 @@
-coding=<UTF-8>
 from BotOS_API import *
 if args is None:
     PyBot.SendTextMessage("MUSO MARSO NON TI DIMENTICARE CHE QUESTO COMANDO PRENDE DEGLI ARGOMENTI!!!!!!!")

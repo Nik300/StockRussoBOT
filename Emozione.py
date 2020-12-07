@@ -6,6 +6,6 @@ if len(args)>0:
     if args[0]=="faccina felice":
         Utilities.ShortnameToEmoji(":(::")
     else if args[0]=="faccina triste":
-        Utilities.ShortnameToEmoji("::)!:")
+        Utilities.ShortnameToEmoji("::):")
 if len(args)<0:
     sy.exit()

@@ -1,7 +1,7 @@
 from BotOS_API import *
 import sys
 if len(args)==0:
-    PyBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI, COSÌ NON FA NIENTE, ATTENSIUN!")
+    PyBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI,IN QUESTA MANIERA NON FA NIENTE, ATTENSIUN!")
 if len(args)>0:
     if args[0]=="felicità":
         Utilities.ShortnameToEmoji(":(::")

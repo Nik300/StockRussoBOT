@@ -8,4 +8,4 @@ if len(args)>0:
     else if args[0]=="faccina triste":
         Utilities.ShortnameToEmoji("::):")
 if len(args)<1:
-    sy.exit()
+    sys.exit()

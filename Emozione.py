@@ -6,6 +6,6 @@ if len(args)>0:
     if args[0]=="felice":
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":smile:"))
     elif args[0]=="triste":
-        PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":frowning2:"))
+        PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":cry:"))
 if len(args)<1:
     sys.exit()

@@ -4,8 +4,8 @@ if len(args)==0:
     PyBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI,IN QUESTA MANIERA NON FA NIENTE, ATTENSIUN!")
 if len(args)>0:
     if args[0]=="felice":
-        Utilities.ShortnameToEmoji(":(::")
+        Pybot.SendTextMessage(Utilities.ShortnameToEmoji(":smile:"))
     elif args[0]=="triste":
-        Utilities.ShortnameToEmoji("::):")
+        PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":frowning2:"))
 if len(args)<1:
     sys.exit()

@@ -10,6 +10,6 @@ if len(args)>0:
     elif args[0]=="arrabbiato":
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":rage:"))
     elif args[0]=="ver":
-        PyBot.SendTextMessage("0.0.1")
+        PyBot.SendTextMessage("0.0.2")
 if len(args)<1:
     sys.exit()

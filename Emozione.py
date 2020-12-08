@@ -26,10 +26,10 @@ if len(args)>0:
     elif args[0]=="list":
         PyBot.SendTextMessage("/emozione con argomenti:\n  Felice, triste ed arrabbiato.\n Rispettivi sottoargomenti:\n  Risata, pianto ed infuriata.")
     elif args[0]=="sottosopra":
-        PyBot.SendTextMessage(":upside_down:")
+        PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":upside_down:"))
     elif args[0]=="cuore":
-        PyBot.SendTextMessage(":heart:")
+        PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":heart:"))
     elif args[0]=="bandiera":
-        PyBot.SendTextMessage(":flag_it:")
+        PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":flag_it:"))
 if len(args)<1:
     sys.exit()

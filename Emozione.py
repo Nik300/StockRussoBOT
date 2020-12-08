@@ -7,7 +7,7 @@ if len(args)==0:
     PyBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI,IN QUESTA MANIERA NON FA NIENTE, ATTENSIUN!")
 if len(args)>0:
     if args[0]=="felice":
-        if len(args)>1 and args[1]=="risate":
+        if len(args)>1 and args[1]=="risata":
             PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":rofl:"))
             sys.exit()
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":smile:"))
@@ -23,5 +23,7 @@ if len(args)>0:
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":rage:"))
     elif args[0]=="ver":
         PyBot.SendTextMessage("0.1.0.1")
+    elif args[0]=="list":
+        PyBot.SendTextMessage("/emozione con argomenti:\n felice, triste ed arrabbiato.\n Rispettivi sottoargomenti:\n risata, pianto ed infuriata.")
 if len(args)<1:
     sys.exit()

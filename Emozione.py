@@ -2,6 +2,7 @@ from BotOS_API import *
 import sys
 import sys
 import sys
+import sys
 if len(args)==0:
     PyBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI,IN QUESTA MANIERA NON FA NIENTE, ATTENSIUN!")
 if len(args)>0:
@@ -16,8 +17,11 @@ if len(args)>0:
             sys.exit()
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":cry:"))
     elif args[0]=="arrabbiato":
+        if len(args)>1 and args[1]=="infuriata":
+            PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":imp:"))
+            sys.exit()
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":rage:"))
     elif args[0]=="ver":
-        PyBot.SendTextMessage("0.1.0")
+        PyBot.SendTextMessage("0.1.0.1")
 if len(args)<1:
     sys.exit()

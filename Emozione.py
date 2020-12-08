@@ -11,7 +11,7 @@ if len(args)>0:
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":rage:"))
     elif args[0]=="ver":
         PyBot.SendTextMessage("0.0.2")
-    if args[1]=="risate"and args[0]=="risate":
+    if args[1]=="risate"and args[0]=="felice":
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":rofl:"))
 if len(args)<1:
     sys.exit()

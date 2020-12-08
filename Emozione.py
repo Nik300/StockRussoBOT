@@ -24,6 +24,6 @@ if len(args)>0:
     elif args[0]=="ver":
         PyBot.SendTextMessage("0.1.0.1")
     elif args[0]=="list":
-        PyBot.SendTextMessage("/emozione con argomenti:\n felice, triste ed arrabbiato.\n Rispettivi sottoargomenti:\n risata, pianto ed infuriata.")
+        PyBot.SendTextMessage("/emozione con argomenti:\n  felice, triste ed arrabbiato.\n Rispettivi sottoargomenti:\n  risata, pianto ed infuriata.")
 if len(args)<1:
     sys.exit()

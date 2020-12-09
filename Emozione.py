@@ -3,6 +3,7 @@ import sys
 import sys
 import sys
 import sys
+import sys
 if len(args)==0:
     PyBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI,IN QUESTA MANIERA NON FA NIENTE, ATTENSIUN!")
 if len(args)>0:
@@ -30,6 +31,10 @@ if len(args)>0:
     elif args[0]=="cuore":
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":heart:"))
     elif args[0]=="bandiera":
+        if len(args)>1 and args[1]=="inghilterra":
+            PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":england:"))
+            sys.exit()
         PyBot.SendTextMessage(Utilities.ShortnameToEmoji(":flag_it:"))
+
 if len(args)<1:
     sys.exit()

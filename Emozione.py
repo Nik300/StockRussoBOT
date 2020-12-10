@@ -1,9 +1,5 @@
 from BotOS_API import *
 import sys
-import sys
-import sys
-import sys
-import sys
 if len(args)==0:
     PyBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI,IN QUESTA MANIERA NON FA NIENTE, ATTENSIUN!")
 if len(args)>0:

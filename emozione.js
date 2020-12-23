@@ -14,3 +14,4 @@ function sistema(){
     }
 
 }
+sistema();

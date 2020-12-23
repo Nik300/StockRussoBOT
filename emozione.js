@@ -7,9 +7,9 @@ function sistema(){
     
     }
     else if(args[0] == "triste"){
-        JSBot.SendTextMessage(Utilities.ShortnameToEmoji(":cry"));
+        JSBot.SendTextMessage(Utilities.ShortnameToEmoji(":cry:"));
         if(args > 0 && args[1] == "pianto"){
-             JSBot.SendTextMessage(Utilities.ShortnameToEmoji(:sob:));
+             JSBot.SendTextMessage(Utilities.ShortnameToEmoji(":sob:"));
          }
     }
 

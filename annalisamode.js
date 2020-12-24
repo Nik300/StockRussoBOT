@@ -4,5 +4,5 @@ if(args==null)
 }
 else
 {
-    JSBot.SendTextMessage("Hai forzato @"+args[0]+" in modalità Annalisa, fai attenzione da adesso @"+args[0]+" è bipolare");
+    JSBot.SendTextMessage("Hai forzato "+args[0]+" in modalità Annalisa, fai attenzione da adesso "+args[0]+" è bipolare");
 }

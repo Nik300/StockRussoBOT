@@ -1,4 +1,7 @@
 function sistema(){
+    if(args.length == 0){
+        JSBot.SendTextMessage("ATTENSIUN POPULASIUN, QUESTO COMANDO PRENDE DEGLI ARGOMENTI,IN QUESTA MANIERA NON FA NIENTE, ATTENSIUN!")
+    }
     if(args.length > 0 && args[0] == "felice" && args[1] == "risata"){
         JSBot.SendTextMessage(Utilities.ShortnameToEmoji(":rofl:"));
     }

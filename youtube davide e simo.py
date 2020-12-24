@@ -7,7 +7,7 @@ if len(args)>0:
         PyBot.SendTextMessage("THE CANAL DI DAVIDE:https://www.youtube.com/user/stockdroid")
     elif args[0].lower()=="simone":
         PyBot.SendTextMessage("CANALE DI SIMONE:https://www.youtube.com/user/MondoMOBILE00")
-    elif args[0].lower=="kunnash":
+    elif args[0].lower()=="kunnash":
         PyBot.SendTextMessage("CANALE TWITCH KUNNASH:https://www.twitch.tv/kunnash")
 if len(args)<1:
     sys.exit()

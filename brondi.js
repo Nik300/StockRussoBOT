@@ -1,0 +1,1 @@
+JSBot.ReplyVideoMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/video_2020-12-26_13-43-58.mp4");

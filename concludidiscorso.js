@@ -1,0 +1,1 @@
+JSBot.ReplyAudioMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/audio_2020-12-27_13-59-54.ogg")

@@ -4,7 +4,7 @@ if(args==null)
 }
 else
 {
-    let utente=JSBot.MessageArgs.Message.From.Username;
+    let utente=JSBot.From.Username;
     if(args[0]=="maschio")
     {
         JSBot.ReplyVideoMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/video_2021-01-01_14-48-50.mp4", utente+" ti da il benvenuto") 

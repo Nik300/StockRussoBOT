@@ -1,1 +1,1 @@
- JSBot.SendTextMessage("https://discord.gg/8xhWx6efMp");
+ JSBot.SendTextMessage("https://discord.gg/8ED3uCjmnb");

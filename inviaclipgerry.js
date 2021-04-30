@@ -1,10 +1,10 @@
-function σύστημα(){
+function buonasuora(){
     if(args == null){
         JSBot.SendTextMessage("MA CHE CLIP VUOI?");
         return;
     }
     if(args[0] == auguri){
-        JSBot.ReplyVideoMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/ALLORA.mp4");
+        JSBot.SendVideoMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/ALLORA.mp4");
     }
 } 
-σύστημα; 
+buonasuora; 

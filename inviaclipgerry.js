@@ -7,4 +7,4 @@ function buonasuora(){
         JSBot.SendVideoMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/ALLORA.mp4");
     }
 } 
-buonasuora; 
+buonasuora(); 

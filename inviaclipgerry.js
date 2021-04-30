@@ -4,7 +4,7 @@ function buonasuora(){
         return;
     }
     if(args[0] == "auguri"){
-        JSBot.SendVideoMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/ALLORA.mp4");
+        JSBot.SendVideoMessage("https://raw.githubusercontent.com/Nik300/StockRussoBOT/master/AUGURI!.mp4");
     }
 } 
 buonasuora(); 
